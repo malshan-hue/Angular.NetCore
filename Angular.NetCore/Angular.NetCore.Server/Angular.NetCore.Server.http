@@ -1,0 +1,6 @@
+@Angular.NetCore.Server_HostAddress = http://localhost:5108
+
+GET {{Angular.NetCore.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
