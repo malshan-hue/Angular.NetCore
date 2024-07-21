@@ -7,4 +7,14 @@
     <!-- Folder where production build objects will be placed -->
     <BuildOutputFolder>$(MSBuildProjectDirectory)\dist\angular.netcore.client\browser\</BuildOutputFolder>
   </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="src\app\components\dropdowns\notification-dropdown\" />
+    <Folder Include="src\app\components\dropdowns\user-dropdown\" />
+    <Folder Include="src\app\components\footers\footer-admin\" />
+    <Folder Include="src\app\components\headers\header-stats\" />
+    <Folder Include="src\app\components\navbars\admin-navbar\" />
+    <Folder Include="src\app\components\sidebar\" />
+    <Folder Include="src\app\layouts\admin\" />
+    <Folder Include="src\app\views\admin\dashboard\" />
+  </ItemGroup>
 </Project>
